@@ -22,6 +22,15 @@ Throughout this journey, I've built several mini-projects and documented my lear
 
 Feel free to explore the code, follow along with the exercises, or use the resources to kickstart your own HTML learning adventure.
 
+## To live edit your code
+
+Install the dependencies and run the project
+
+```text
+npm install
+npm start
+```
+
 ## Resources
 
 - [Scrimba HTML Course](https://scrimba.com/learn/html)
