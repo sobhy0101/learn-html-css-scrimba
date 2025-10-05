@@ -44,7 +44,7 @@ body {
     background-size: cover;
     background-position: center;
     color: white;
-    padding: 50px 20px;
+    padding: 200px 20px 0 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -116,7 +116,7 @@ body {
     width: 400px;
     height: 200px;
     border-radius: 20px;
-    margin: 0 auto;
+    margin: 0 auto 3rem auto;
     border-bottom: 8px solid var(--dark-blue);
 }
 
@@ -124,5 +124,36 @@ body {
     border-radius: 50%;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7);
 }
-    
-    
+
+footer {
+    background-color: var(--dark-blue);
+    color: white;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer a {
+    color: var(--aqua);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--red);
+    transition: color 0.3s ease-in-out;
+}
+
+figcaption {
+    font-size: 10px;
+    color: #b4b4b4;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+.activities p, .activities h4 {
+    color: #333;
+}
